@@ -1,0 +1,129 @@
+body{
+    background-image: url("https://w0.peakpx.com/wallpaper/842/231/HD-wallpaper-taj-mahal-india-tajmahal-tourism-india-asia-landmarks-mist.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+
+
+.card{
+    height: 550px;
+    width: 320px;
+    background-color: rgba(90, 91, 97, 0.597);
+    padding: 10px;
+    margin: 5%;
+    border-radius: 20px;
+    animation:trans  2s  forwards;
+}
+.card:hover{
+ animation: 0.5s hover forwards;
+}
+@keyframes hover{
+    0%{
+           transform: translate(1,1);
+    }
+    100%{
+        transform: scale(1.1,1.2);
+    }
+}
+@keyframes trans{
+    0%{
+        transform: scale(0,0);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(1,1);
+        opacity: 1;
+    }
+}
+ .card1{
+    height: 550px;
+    width: 320px;
+    background-color: rgb(13, 27, 42) ;
+    padding: 10px;
+    margin: 5%;
+    color:aliceblue;
+    border-radius: 20px;
+    animation: 4s trans1  forwards;
+}
+
+@keyframes trans1{
+    0%{
+        transform: translate(-90%,-90%);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
+.car{
+    display: flex;
+
+}
+.package{
+    text-align: center;
+    margin-top: 1%;
+    font-family: 'Playfair Display', serif;
+}
+.name{
+    font-weight: 900;
+}
+.price{
+    font-size: 3vw;
+    font-weight: 1000;
+}
+.per{
+    color: rgba(13,27,42,0.5) ;
+    margin-top: 0px;
+}
+.check{
+    margin-bottom: 5%;
+}
+.badge{
+    margin-left: 65%;
+    background-color:  #FF6B4A;
+    border-radius: 10px;
+    padding: 3px;
+}
+.book{
+    background-color: #FF6B4A;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 30%;
+    
+}
+.book a{
+    color: white;
+    text-decoration: none;
+}
+.book:hover{
+    background-color: black;
+    animation: 0.5s book1  forwards;
+
+}
+@keyframes book1{
+    0%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(1.2,1.2);
+        border: whitesmoke solid 1px;
+    }}
+   .back{
+    background-color: #FF6B4A;
+    padding: 5px;
+    float: left;
+    border-radius: 20px;
+         -webkit-text-fill-color: white;
+             text-decoration: none;
+
+    }
+    .back:hover{
+        background-color: black;
+    }
+    

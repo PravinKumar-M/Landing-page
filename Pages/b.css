@@ -1,0 +1,70 @@
+
+body{
+     background-image: url(" https://static.vecteezy.com/system/resources/previews/013/138/418/non_2x/forest-dark-silhouette-landscape-flat-colorful-illustration-night-blue-sky-with-stars-milky-way-in-the-morning-panorama-background-for-tourism-traveling-camping-adventure-free-vector.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+
+            * {
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+                 
+            }
+            body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  /* background: black; */
+                  
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 10px;
+            }
+            .form-container {
+                  background: rgba(255, 255, 255, 0.789);
+                  padding: 1px;
+                  border-radius: 10px;
+                  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+                  max-width: 500px;
+                  width: 100%;
+            }
+            h1 {
+                  color: #333;
+                  margin-bottom: 30px;
+                  text-align: center;
+            }
+            .form-group {
+                  margin-bottom: 20px;
+            }
+            label {
+                  display: block;
+                  margin-bottom: 8px;
+                  color: #555;
+                  font-weight: 500;
+            }
+            input, select, textarea {
+                  width: 100%;
+                  padding: 8px;
+                  border: 1px solid #ddd;
+                  border-radius: 5px;
+                  font-size: 14px;
+                  font-family: inherit;
+            }
+            
+            button {
+                  width: 100%;
+                  padding: 12px;
+                  background: red;
+                  color: white;
+                  border: none;
+                  border-radius: 5px;
+                  font-size: 16px;
+                  font-weight: 600;
+                  cursor: pointer;
+                  transition: background 0.3s;
+            }
+            button:hover {
+                  background:black;
+                  color: white;
+            }

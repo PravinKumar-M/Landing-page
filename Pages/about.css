@@ -1,0 +1,89 @@
+.head{
+text-align: center;
+color: black;
+font-weight: 300;
+font-size: 1.5vw;
+animation: 2s fade forwards;
+
+}
+.item{
+    background-color: rgba(255, 255, 255, 0.571);
+    height: 150px;
+    width: 300px;
+    margin: 2%;
+    text-align: center;
+    border-radius: 20px;
+    border:2px solid rgba(0, 0, 0, 0.537);
+    margin-left: 25%;
+    animation: 5s fade forwards;
+}
+.item:hover{
+    border: black solid 3px;;
+}
+@keyframes fade{ 0%{ transform: translateY(20%); opacity: 0; } 100%{ transform: translateY(0%); opacity: 1; }}
+body{
+    background-image: url("https://img.freepik.com/premium-photo/world-tourism-background_1102-5029.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0PX;
+    overflow-y: hidden;
+}
+.grid{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+}
+.icon{
+    position: absolute;
+    margin-left: -75px;
+    margin-top: 12px;
+}
+.about{
+    margin-top: 2.5%;
+    height: auto;
+    width: 50%;
+
+}
+.back{
+    background-color: rgba(0, 0, 0, 0.858);
+    color :aliceblue;
+    height: 170px;
+    width: 1536px;  
+}
+.flex{
+    float: right;
+    margin-top: -11%;
+    color:   rgba(240, 248, 255, 0.642);
+}
+.para{
+    color: rgba(240, 248, 255, 0.642);
+    margin-bottom: 0px;
+}
+.bottom{
+    background-color: rgb(9, 9, 9);
+    height: 43.5px;
+    width: 1536px;  
+    margin-top: 0px;
+    color: white;
+    
+}
+.line
+{
+    height: 1px;
+    color: white;
+}
+    .back1{
+    background-color: #FF6B4A;
+    padding: 5px;
+    float: left;
+    font-size: small;
+    border-radius: 20px;
+         -webkit-text-fill-color: white;
+             text-decoration: none;
+margin-top: 0.2%;
+    }
+    .back1:hover{
+        background-color:white;
+         -webkit-text-fill-color: black;
+    }
+ 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tour Booking Form</title>
+      <link rel="stylesheet" href="b.css">
+       
+</head>
+<body>
+      <div class="form-container">
+            <h1>Tour Booking Form</h1>
+            <form id="bookingForm">
+                  <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                  </div>
+                  <div class="form-group">
+                        <label for="destination">Destination *</label>
+                        <select id="destination" name="destination" required>
+                              <option value="">Select a destination</option>
+                              <option value="paris">Santorini</option>
+                              <option value="bangkok">Kyoto</option>
+                              <option value="dubai">maasai Mara</option>
+                              <option value="tokyo">The Maldives</option>
+                        </select>
+                  </div>
+                  <div class="form-group">
+                        <label for="checkIn">Check-in Date *</label>
+                        <input type="date"   required>
+                  </div>
+                  <div class="form-group">
+                        <label for="checkOut">Check-out Date *</label>
+                        <input type="date"   required>
+                  </div>
+                  <div class="form-group">
+                        <label for="guests">Number of Guests *</label>
+                        <input type="number" placeholder="1"  min="1" required>
+                  </div>
+                  <div class="form-group">
+                        <label for="message">Special Requests</label>
+                        <textarea id="message" name="message" rows="2" placeholder="Any special requests..."></textarea>
+                  </div>
+                  <button type="submit">Book Tour</button>
+            </form>
+      </div>
+</body>
+</html>
